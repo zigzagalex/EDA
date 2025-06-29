@@ -1,0 +1,531 @@
+# ==== CATEGORICAL SUMMARY ====
+Detected 22 categorical columns: Year, Quarter, Month, DayofMonth, DayOfWeek, Operating_Airline, OriginAirportSeqID, OriginCityMarketID, OriginCityName, OriginState, OriginStateFips, OriginStateName, OriginWac, DestAirportID, DestAirportSeqID, DestCityMarketID, Dest, DestCityName, DestState, DestStateFips, DestStateName, DestWac
+
+------------------------------------------------------------------------
+Column: Year  |  Cardinality: 1
+  Top categories (rel_freq shown):
+    2022                                     : 100.00%
+
+  Cumulative rel_freq (top 5): 100.00%
+
+------------------------------------------------------------------------
+Column: Quarter  |  Cardinality: 3
+  Top categories (rel_freq shown):
+    2                                        :  43.78%
+    1                                        :  41.05%
+    3                                        :  15.17%
+
+  Cumulative rel_freq (top 5): 100.00%
+
+------------------------------------------------------------------------
+Column: Month  |  Cardinality: 7
+  Top categories (rel_freq shown):
+    7                                        :  15.17%
+    5                                        :  14.78%
+    6                                        :  14.76%
+    3                                        :  14.48%
+    4                                        :  14.23%
+    1                                        :  13.82%
+    2                                        :  12.75%
+
+  Cumulative rel_freq (top 5):  73.43%
+
+------------------------------------------------------------------------
+Column: DayofMonth  |  Cardinality: 31
+  Top categories (rel_freq shown):
+    24                                       :   3.41%
+    17                                       :   3.41%
+    27                                       :   3.41%
+    10                                       :   3.39%
+    20                                       :   3.38%
+    21                                       :   3.37%
+    13                                       :   3.36%
+    3                                        :   3.36%
+    28                                       :   3.36%
+    6                                        :   3.36%
+    14                                       :   3.35%
+    18                                       :   3.33%
+    25                                       :   3.33%
+    11                                       :   3.32%
+    7                                        :   3.32%
+    22                                       :   3.27%
+    4                                        :   3.27%
+    23                                       :   3.26%
+    2                                        :   3.25%
+    15                                       :   3.24%
+    ... 11 more categories
+
+  Cumulative rel_freq (top 5):  16.99%
+
+------------------------------------------------------------------------
+Column: DayOfWeek  |  Cardinality: 7
+  Top categories (rel_freq shown):
+    7                                        :  14.94%
+    5                                        :  14.84%
+    4                                        :  14.81%
+    1                                        :  14.72%
+    3                                        :  13.90%
+    2                                        :  13.65%
+    6                                        :  13.13%
+
+  Cumulative rel_freq (top 5):  73.21%
+
+------------------------------------------------------------------------
+Column: Operating_Airline  |  Cardinality: 21
+  Top categories (rel_freq shown):
+    WN                                       :  17.95%
+    DL                                       :  12.56%
+    AA                                       :  12.16%
+    OO                                       :  10.81%
+    UA                                       :   8.63%
+    YX                                       :   4.85%
+    B6                                       :   3.84%
+    MQ                                       :   3.70%
+    9E                                       :   3.50%
+    OH                                       :   3.33%
+    AS                                       :   3.18%
+    NK                                       :   3.17%
+    F9                                       :   2.12%
+    G4                                       :   1.80%
+    YV                                       :   1.76%
+    QX                                       :   1.38%
+    PT                                       :   1.30%
+    C5                                       :   1.09%
+    HA                                       :   1.04%
+    ZW                                       :   0.99%
+    ... 1 more categories
+
+  Cumulative rel_freq (top 5):  62.10%
+
+------------------------------------------------------------------------
+Column: OriginAirportSeqID  |  Cardinality: 375
+  Top categories (rel_freq shown):
+    1039707                                  :   4.50%
+    1393007                                  :   4.22%
+    1129806                                  :   3.95%
+    1129202                                  :   3.88%
+    1105703                                  :   3.09%
+    1289208                                  :   2.74%
+    1295304                                  :   2.46%
+    1474703                                  :   2.42%
+    1288903                                  :   2.39%
+    1410702                                  :   2.36%
+    1161802                                  :   2.14%
+    1226603                                  :   2.13%
+    1127805                                  :   2.11%
+    1320402                                  :   2.09%
+    1247805                                  :   1.94%
+    1072102                                  :   1.93%
+    1143302                                  :   1.86%
+    1477104                                  :   1.84%
+    1348702                                  :   1.73%
+    1330303                                  :   1.62%
+    ... 355 more categories
+
+  Cumulative rel_freq (top 5):  19.65%
+
+------------------------------------------------------------------------
+Column: OriginCityMarketID  |  Cardinality: 351
+  Top categories (rel_freq shown):
+    31703                                    :   6.82%
+    30977                                    :   5.23%
+    30194                                    :   4.87%
+    30397                                    :   4.50%
+    32575                                    :   4.39%
+    30852                                    :   4.37%
+    30325                                    :   3.88%
+    32457                                    :   3.21%
+    31057                                    :   3.09%
+    32467                                    :   2.88%
+    31453                                    :   2.83%
+    30466                                    :   2.44%
+    30559                                    :   2.42%
+    32211                                    :   2.39%
+    30721                                    :   2.27%
+    31454                                    :   2.09%
+    31295                                    :   1.86%
+    31650                                    :   1.73%
+    34614                                    :   1.58%
+    34100                                    :   1.50%
+    ... 331 more categories
+
+  Cumulative rel_freq (top 5):  25.82%
+
+------------------------------------------------------------------------
+Column: OriginCityName  |  Cardinality: 369
+  Top categories (rel_freq shown):
+    Chicago, IL                              :   5.23%
+    Atlanta, GA                              :   4.50%
+    New York, NY                             :   4.40%
+    Dallas/Fort Worth, TX                    :   3.95%
+    Denver, CO                               :   3.88%
+    Washington, DC                           :   3.17%
+    Charlotte, NC                            :   3.09%
+    Houston, TX                              :   2.83%
+    Los Angeles, CA                          :   2.74%
+    Phoenix, AZ                              :   2.44%
+    Seattle, WA                              :   2.42%
+    Las Vegas, NV                            :   2.39%
+    Newark, NJ                               :   2.14%
+    Orlando, FL                              :   2.09%
+    Boston, MA                               :   1.93%
+    Detroit, MI                              :   1.86%
+    San Francisco, CA                        :   1.84%
+    Minneapolis, MN                          :   1.73%
+    Miami, FL                                :   1.62%
+    Salt Lake City, UT                       :   1.58%
+    ... 349 more categories
+
+  Cumulative rel_freq (top 5):  21.97%
+
+------------------------------------------------------------------------
+Column: OriginState  |  Cardinality: 53
+  Top categories (rel_freq shown):
+    TX                                       :  10.45%
+    CA                                       :  10.28%
+    FL                                       :   8.81%
+    NY                                       :   5.73%
+    IL                                       :   5.48%
+    GA                                       :   4.91%
+    CO                                       :   4.43%
+    NC                                       :   4.43%
+    VA                                       :   4.08%
+    WA                                       :   2.95%
+    AZ                                       :   2.74%
+    NV                                       :   2.67%
+    PA                                       :   2.42%
+    MI                                       :   2.40%
+    NJ                                       :   2.23%
+    MA                                       :   2.00%
+    TN                                       :   1.90%
+    MN                                       :   1.83%
+    HI                                       :   1.73%
+    MO                                       :   1.68%
+    ... 33 more categories
+
+  Cumulative rel_freq (top 5):  40.75%
+
+------------------------------------------------------------------------
+Column: OriginStateFips  |  Cardinality: 53
+  Top categories (rel_freq shown):
+    48                                       :  10.45%
+    6                                        :  10.28%
+    12                                       :   8.81%
+    36                                       :   5.73%
+    17                                       :   5.48%
+    13                                       :   4.91%
+    8                                        :   4.43%
+    37                                       :   4.43%
+    51                                       :   4.08%
+    53                                       :   2.95%
+    4                                        :   2.74%
+    32                                       :   2.67%
+    42                                       :   2.42%
+    26                                       :   2.40%
+    34                                       :   2.23%
+    25                                       :   2.00%
+    47                                       :   1.90%
+    27                                       :   1.83%
+    15                                       :   1.73%
+    29                                       :   1.68%
+    ... 33 more categories
+
+  Cumulative rel_freq (top 5):  40.75%
+
+------------------------------------------------------------------------
+Column: OriginStateName  |  Cardinality: 53
+  Top categories (rel_freq shown):
+    Texas                                    :  10.45%
+    California                               :  10.28%
+    Florida                                  :   8.81%
+    New York                                 :   5.73%
+    Illinois                                 :   5.48%
+    Georgia                                  :   4.91%
+    Colorado                                 :   4.43%
+    North Carolina                           :   4.43%
+    Virginia                                 :   4.08%
+    Washington                               :   2.95%
+    Arizona                                  :   2.74%
+    Nevada                                   :   2.67%
+    Pennsylvania                             :   2.42%
+    Michigan                                 :   2.40%
+    New Jersey                               :   2.23%
+    Massachusetts                            :   2.00%
+    Tennessee                                :   1.90%
+    Minnesota                                :   1.83%
+    Hawaii                                   :   1.73%
+    Missouri                                 :   1.68%
+    ... 33 more categories
+
+  Cumulative rel_freq (top 5):  40.75%
+
+------------------------------------------------------------------------
+Column: OriginWac  |  Cardinality: 53
+  Top categories (rel_freq shown):
+    74                                       :  10.45%
+    91                                       :  10.28%
+    33                                       :   8.81%
+    22                                       :   5.73%
+    41                                       :   5.48%
+    34                                       :   4.91%
+    82                                       :   4.43%
+    36                                       :   4.43%
+    38                                       :   4.08%
+    93                                       :   2.95%
+    81                                       :   2.74%
+    85                                       :   2.67%
+    23                                       :   2.42%
+    43                                       :   2.40%
+    21                                       :   2.23%
+    13                                       :   2.00%
+    54                                       :   1.90%
+    63                                       :   1.83%
+    2                                        :   1.73%
+    64                                       :   1.68%
+    ... 33 more categories
+
+  Cumulative rel_freq (top 5):  40.75%
+
+------------------------------------------------------------------------
+Column: DestAirportID  |  Cardinality: 375
+  Top categories (rel_freq shown):
+    10397                                    :   4.50%
+    13930                                    :   4.22%
+    11298                                    :   3.95%
+    11292                                    :   3.88%
+    11057                                    :   3.09%
+    12892                                    :   2.74%
+    12953                                    :   2.46%
+    14747                                    :   2.42%
+    12889                                    :   2.40%
+    14107                                    :   2.36%
+    11618                                    :   2.14%
+    12266                                    :   2.13%
+    11278                                    :   2.11%
+    13204                                    :   2.09%
+    12478                                    :   1.94%
+    10721                                    :   1.93%
+    11433                                    :   1.86%
+    14771                                    :   1.84%
+    13487                                    :   1.73%
+    13303                                    :   1.62%
+    ... 355 more categories
+
+  Cumulative rel_freq (top 5):  19.65%
+
+------------------------------------------------------------------------
+Column: DestAirportSeqID  |  Cardinality: 375
+  Top categories (rel_freq shown):
+    1039707                                  :   4.50%
+    1393007                                  :   4.22%
+    1129806                                  :   3.95%
+    1129202                                  :   3.88%
+    1105703                                  :   3.09%
+    1289208                                  :   2.74%
+    1295304                                  :   2.46%
+    1474703                                  :   2.42%
+    1288903                                  :   2.40%
+    1410702                                  :   2.36%
+    1161802                                  :   2.14%
+    1226603                                  :   2.13%
+    1127805                                  :   2.11%
+    1320402                                  :   2.09%
+    1247805                                  :   1.94%
+    1072102                                  :   1.93%
+    1143302                                  :   1.86%
+    1477104                                  :   1.84%
+    1348702                                  :   1.73%
+    1330303                                  :   1.62%
+    ... 355 more categories
+
+  Cumulative rel_freq (top 5):  19.65%
+
+------------------------------------------------------------------------
+Column: DestCityMarketID  |  Cardinality: 351
+  Top categories (rel_freq shown):
+    31703                                    :   6.82%
+    30977                                    :   5.24%
+    30194                                    :   4.87%
+    30397                                    :   4.50%
+    32575                                    :   4.39%
+    30852                                    :   4.37%
+    30325                                    :   3.88%
+    32457                                    :   3.21%
+    31057                                    :   3.09%
+    32467                                    :   2.88%
+    31453                                    :   2.83%
+    30466                                    :   2.44%
+    30559                                    :   2.42%
+    32211                                    :   2.40%
+    30721                                    :   2.27%
+    31454                                    :   2.09%
+    31295                                    :   1.86%
+    31650                                    :   1.73%
+    34614                                    :   1.58%
+    34100                                    :   1.50%
+    ... 331 more categories
+
+  Cumulative rel_freq (top 5):  25.82%
+
+------------------------------------------------------------------------
+Column: Dest  |  Cardinality: 375
+  Top categories (rel_freq shown):
+    ATL                                      :   4.50%
+    ORD                                      :   4.22%
+    DFW                                      :   3.95%
+    DEN                                      :   3.88%
+    CLT                                      :   3.09%
+    LAX                                      :   2.74%
+    LGA                                      :   2.46%
+    SEA                                      :   2.42%
+    LAS                                      :   2.40%
+    PHX                                      :   2.36%
+    EWR                                      :   2.14%
+    IAH                                      :   2.13%
+    DCA                                      :   2.11%
+    MCO                                      :   2.09%
+    JFK                                      :   1.94%
+    BOS                                      :   1.93%
+    DTW                                      :   1.86%
+    SFO                                      :   1.84%
+    MSP                                      :   1.73%
+    MIA                                      :   1.62%
+    ... 355 more categories
+
+  Cumulative rel_freq (top 5):  19.65%
+
+------------------------------------------------------------------------
+Column: DestCityName  |  Cardinality: 369
+  Top categories (rel_freq shown):
+    Chicago, IL                              :   5.24%
+    Atlanta, GA                              :   4.50%
+    New York, NY                             :   4.40%
+    Dallas/Fort Worth, TX                    :   3.95%
+    Denver, CO                               :   3.88%
+    Washington, DC                           :   3.18%
+    Charlotte, NC                            :   3.09%
+    Houston, TX                              :   2.83%
+    Los Angeles, CA                          :   2.74%
+    Phoenix, AZ                              :   2.44%
+    Seattle, WA                              :   2.42%
+    Las Vegas, NV                            :   2.40%
+    Newark, NJ                               :   2.14%
+    Orlando, FL                              :   2.09%
+    Boston, MA                               :   1.93%
+    Detroit, MI                              :   1.86%
+    San Francisco, CA                        :   1.84%
+    Minneapolis, MN                          :   1.73%
+    Miami, FL                                :   1.62%
+    Salt Lake City, UT                       :   1.58%
+    ... 349 more categories
+
+  Cumulative rel_freq (top 5):  21.97%
+
+------------------------------------------------------------------------
+Column: DestState  |  Cardinality: 53
+  Top categories (rel_freq shown):
+    TX                                       :  10.45%
+    CA                                       :  10.28%
+    FL                                       :   8.80%
+    NY                                       :   5.73%
+    IL                                       :   5.48%
+    GA                                       :   4.91%
+    CO                                       :   4.43%
+    NC                                       :   4.43%
+    VA                                       :   4.08%
+    WA                                       :   2.95%
+    AZ                                       :   2.74%
+    NV                                       :   2.67%
+    PA                                       :   2.42%
+    MI                                       :   2.40%
+    NJ                                       :   2.23%
+    MA                                       :   2.00%
+    TN                                       :   1.90%
+    MN                                       :   1.83%
+    HI                                       :   1.73%
+    MO                                       :   1.68%
+    ... 33 more categories
+
+  Cumulative rel_freq (top 5):  40.75%
+
+------------------------------------------------------------------------
+Column: DestStateFips  |  Cardinality: 53
+  Top categories (rel_freq shown):
+    48                                       :  10.45%
+    6                                        :  10.28%
+    12                                       :   8.80%
+    36                                       :   5.73%
+    17                                       :   5.48%
+    13                                       :   4.91%
+    8                                        :   4.43%
+    37                                       :   4.43%
+    51                                       :   4.08%
+    53                                       :   2.95%
+    4                                        :   2.74%
+    32                                       :   2.67%
+    42                                       :   2.42%
+    26                                       :   2.40%
+    34                                       :   2.23%
+    25                                       :   2.00%
+    47                                       :   1.90%
+    27                                       :   1.83%
+    15                                       :   1.73%
+    29                                       :   1.68%
+    ... 33 more categories
+
+  Cumulative rel_freq (top 5):  40.75%
+
+------------------------------------------------------------------------
+Column: DestStateName  |  Cardinality: 53
+  Top categories (rel_freq shown):
+    Texas                                    :  10.45%
+    California                               :  10.28%
+    Florida                                  :   8.80%
+    New York                                 :   5.73%
+    Illinois                                 :   5.48%
+    Georgia                                  :   4.91%
+    Colorado                                 :   4.43%
+    North Carolina                           :   4.43%
+    Virginia                                 :   4.08%
+    Washington                               :   2.95%
+    Arizona                                  :   2.74%
+    Nevada                                   :   2.67%
+    Pennsylvania                             :   2.42%
+    Michigan                                 :   2.40%
+    New Jersey                               :   2.23%
+    Massachusetts                            :   2.00%
+    Tennessee                                :   1.90%
+    Minnesota                                :   1.83%
+    Hawaii                                   :   1.73%
+    Missouri                                 :   1.68%
+    ... 33 more categories
+
+  Cumulative rel_freq (top 5):  40.75%
+
+------------------------------------------------------------------------
+Column: DestWac  |  Cardinality: 53
+  Top categories (rel_freq shown):
+    74                                       :  10.45%
+    91                                       :  10.28%
+    33                                       :   8.80%
+    22                                       :   5.73%
+    41                                       :   5.48%
+    34                                       :   4.91%
+    82                                       :   4.43%
+    36                                       :   4.43%
+    38                                       :   4.08%
+    93                                       :   2.95%
+    81                                       :   2.74%
+    85                                       :   2.67%
+    23                                       :   2.42%
+    43                                       :   2.40%
+    21                                       :   2.23%
+    13                                       :   2.00%
+    54                                       :   1.90%
+    63                                       :   1.83%
+    2                                        :   1.73%
+    64                                       :   1.68%
+    ... 33 more categories
+
+  Cumulative rel_freq (top 5):  40.75%
+

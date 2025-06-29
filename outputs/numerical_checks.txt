@@ -1,0 +1,21 @@
+# ==== NUMERICAL SUMMARY ====
+Analysed 4 numeric columns: CRSElapsedTime, ActualElapsedTime, AirTime, Distance
+
+Column                 min      median        mean         max         std         var        skew      kurt
+CRSElapsedTime        -48         124         141         690         71.8        5.15e+03    1.47      2.74    
+ActualElapsedTime     14          119         136         764         71.9        5.16e+03    1.44      2.64    
+AirTime               8           94          111         727         70          4.89e+03    1.48      2.75    
+Distance              31          643         798         5.1e+03     591         3.5e+05     1.55      3.06    
+
+# ==== CORRELATION MATRIX (Pearson) ====
+shape: (4, 4)
+┌────────────────┬───────────────────┬──────────┬──────────┐
+│ CRSElapsedTime ┆ ActualElapsedTime ┆ AirTime  ┆ Distance │
+│ ---            ┆ ---               ┆ ---      ┆ ---      │
+│ f64            ┆ f64               ┆ f64      ┆ f64      │
+╞════════════════╪═══════════════════╪══════════╪══════════╡
+│ 1.0            ┆ 0.981608          ┆ 0.989437 ┆ 0.982253 │
+│ 0.981608       ┆ 1.0               ┆ 0.986817 ┆ 0.969199 │
+│ 0.989437       ┆ 0.986817          ┆ 1.0      ┆ 0.984916 │
+│ 0.982253       ┆ 0.969199          ┆ 0.984916 ┆ 1.0      │
+└────────────────┴───────────────────┴──────────┴──────────┘

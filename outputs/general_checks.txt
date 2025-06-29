@@ -1,0 +1,132 @@
+# ==== DATASET OVERVIEW ====
+Rows:        4,078,318
+Columns:     62
+Size (bytes):1,859,596,997 ≈ 1773.45 MiB
+
+# ==== PER‑COLUMN SIZE & DTYPE ====
+FlightDate                     Datetime(time_unit='ns', time_zone=None)      31.12 MiB
+Airline                        String                    77.23 MiB
+Origin                         String                    11.67 MiB
+Dest                           String                    11.67 MiB
+Cancelled                      Boolean                    0.49 MiB
+Diverted                       Boolean                    0.49 MiB
+CRSDepTime                     Int64                     31.12 MiB
+DepTime                        Float64                   31.60 MiB
+DepDelayMinutes                Float64                   31.60 MiB
+DepDelay                       Float64                   31.60 MiB
+ArrTime                        Float64                   31.60 MiB
+ArrDelayMinutes                Float64                   31.60 MiB
+AirTime                        Float64                   31.60 MiB
+CRSElapsedTime                 Float64                   31.12 MiB
+ActualElapsedTime              Float64                   31.60 MiB
+Distance                       Float64                   31.12 MiB
+Year                           Int64                     31.12 MiB
+Quarter                        Int64                     31.12 MiB
+Month                          Int64                     31.12 MiB
+DayofMonth                     Int64                     31.12 MiB
+DayOfWeek                      Int64                     31.12 MiB
+Marketing_Airline_Network      String                     7.78 MiB
+Operated_or_Branded_Code_Share_Partners String                    20.83 MiB
+DOT_ID_Marketing_Airline       Int64                     31.12 MiB
+IATA_Code_Marketing_Airline    String                     7.78 MiB
+Flight_Number_Marketing_Airline Int64                     31.12 MiB
+Operating_Airline              String                     7.78 MiB
+DOT_ID_Operating_Airline       Int64                     31.12 MiB
+IATA_Code_Operating_Airline    String                     7.78 MiB
+Tail_Number                    String                    23.26 MiB
+Flight_Number_Operating_Airline Int64                     31.12 MiB
+OriginAirportID                Int64                     31.12 MiB
+OriginAirportSeqID             Int64                     31.12 MiB
+OriginCityMarketID             Int64                     31.12 MiB
+OriginCityName                 String                    50.84 MiB
+OriginState                    String                     7.78 MiB
+OriginStateFips                Int64                     31.12 MiB
+OriginStateName                String                    31.86 MiB
+OriginWac                      Int64                     31.12 MiB
+DestAirportID                  Int64                     31.12 MiB
+DestAirportSeqID               Int64                     31.12 MiB
+DestCityMarketID               Int64                     31.12 MiB
+DestCityName                   String                    50.84 MiB
+DestState                      String                     7.78 MiB
+DestStateFips                  Int64                     31.12 MiB
+DestStateName                  String                    31.86 MiB
+DestWac                        Int64                     31.12 MiB
+DepDel15                       Float64                   31.60 MiB
+DepartureDelayGroups           Float64                   31.60 MiB
+DepTimeBlk                     String                    35.00 MiB
+TaxiOut                        Float64                   31.60 MiB
+WheelsOff                      Float64                   31.60 MiB
+WheelsOn                       Float64                   31.60 MiB
+TaxiIn                         Float64                   31.60 MiB
+CRSArrTime                     Int64                     31.12 MiB
+ArrDelay                       Float64                   31.60 MiB
+ArrDel15                       Float64                   31.60 MiB
+ArrivalDelayGroups             Float64                   31.60 MiB
+ArrTimeBlk                     String                    35.00 MiB
+DistanceGroup                  Int64                     31.12 MiB
+DivAirportLandings             Int64                     31.12 MiB
+__index_level_0__              Int64                     31.12 MiB
+
+# ==== NULL PROPORTION ====
+FlightDate                       0.00% null
+Airline                          0.00% null
+Origin                           0.00% null
+Dest                             0.00% null
+Cancelled                        0.00% null
+Diverted                         0.00% null
+CRSDepTime                       0.00% null
+DepTime                          2.95% null
+DepDelayMinutes                  2.95% null
+DepDelay                         2.95% null
+ArrTime                          3.05% null
+ArrDelayMinutes                  3.27% null
+AirTime                          3.27% null
+CRSElapsedTime                   0.00% null
+ActualElapsedTime                3.27% null
+Distance                         0.00% null
+Year                             0.00% null
+Quarter                          0.00% null
+Month                            0.00% null
+DayofMonth                       0.00% null
+DayOfWeek                        0.00% null
+Marketing_Airline_Network        0.00% null
+Operated_or_Branded_Code_Share_Partners   0.00% null
+DOT_ID_Marketing_Airline         0.00% null
+IATA_Code_Marketing_Airline      0.00% null
+Flight_Number_Marketing_Airline   0.00% null
+Operating_Airline                0.00% null
+DOT_ID_Operating_Airline         0.00% null
+IATA_Code_Operating_Airline      0.00% null
+Tail_Number                      0.66% null
+Flight_Number_Operating_Airline   0.00% null
+OriginAirportID                  0.00% null
+OriginAirportSeqID               0.00% null
+OriginCityMarketID               0.00% null
+OriginCityName                   0.00% null
+OriginState                      0.00% null
+OriginStateFips                  0.00% null
+OriginStateName                  0.00% null
+OriginWac                        0.00% null
+DestAirportID                    0.00% null
+DestAirportSeqID                 0.00% null
+DestCityMarketID                 0.00% null
+DestCityName                     0.00% null
+DestState                        0.00% null
+DestStateFips                    0.00% null
+DestStateName                    0.00% null
+DestWac                          0.00% null
+DepDel15                         2.95% null
+DepartureDelayGroups             2.95% null
+DepTimeBlk                       0.00% null
+TaxiOut                          3.01% null
+WheelsOff                        3.01% null
+WheelsOn                         3.05% null
+TaxiIn                           3.05% null
+CRSArrTime                       0.00% null
+ArrDelay                         3.27% null
+ArrDel15                         3.27% null
+ArrivalDelayGroups               3.27% null
+ArrTimeBlk                       0.00% null
+DistanceGroup                    0.00% null
+DivAirportLandings               0.00% null
+__index_level_0__                0.00% null
