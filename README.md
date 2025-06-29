@@ -22,6 +22,8 @@ Then run ```main.py``` and get:
 3. Long tail counts for numerical and categorical variables e.g. 5th and 95th percentile counts of outliers. 
 4. Join multiple parquet files
 5. Add other data ingestion methods
+6. Make a CLI tool out of this
+7. Package it well
 
 ### Testing
 A good public dataset to test it out and get a feel for the speed is this [kaggle flight delay](https://www.kaggle.com/datasets/robikscube/flight-delay-dataset-20182022) dataset. It has approx 4 mio rows per parquet file, which is not much but with ~1.5gb it already starts posing difficulties for pandas. 
