@@ -1,9 +1,9 @@
 import polars as pl
 
-
 from checks.categorical import categorical_checks
 from checks.general import general_checks
 from checks.numerical import numerical_checks
+from create_pdf import compile_plots_pdf
 
 
 def main():
@@ -32,13 +32,14 @@ def main():
         "DestStateName",
         "DestWac",
     ]
-    num_cols = ["CRSElapsedTime", "ActualElapsedTime", "AirTime", "Distance"]
+    num_cols = ["CRSElapsedTime", "ActualElapsedTime", "AirTime", "Distance",]
     df = pl.read_parquet(parquet_path)
     general_checks(df)
     if cat_cols:
         categorical_checks(df, cat_cols=cat_cols)
     if num_cols:
         numerical_checks(df, num_cols=num_cols)
+        compile_plots_pdf(plot_root="./outputs/plots")
 
 
 if __name__ == "__main__":

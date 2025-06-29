@@ -1,7 +1,7 @@
 # ==== NUMERICAL SUMMARY ====
 Analysed 4 numeric columns: CRSElapsedTime, ActualElapsedTime, AirTime, Distance
 
-Column                 min      median        mean         max         std         var        skew      kurt
+Column                       min      median        mean         max         std         var      skew      kurt
 CRSElapsedTime        -48         124         141         690         71.8        5.15e+03    1.47      2.74    
 ActualElapsedTime     14          119         136         764         71.9        5.16e+03    1.44      2.64    
 AirTime               8           94          111         727         70          4.89e+03    1.48      2.75    
